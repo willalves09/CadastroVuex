@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import VueMask from 'v-mask'
+import { Vuelidate } from 'vuelidate'
+Vue.use(Vuelidate)
 Vue.use(VueMask)
 
-// export const strict = false
+export const strict = false
 
 export const state = () => ({
   clients: []
